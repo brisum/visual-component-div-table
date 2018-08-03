@@ -1,0 +1,182 @@
+.div-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+
+  .div-tr {
+    display: table-row;
+  }
+
+  .div-thead {
+    display: table-header-group;
+  }
+
+  .div-tbody {
+    display: table-row-group;
+  }
+
+  .div-tfoot {
+    display: table-footer-group;
+  }
+
+  .div-col {
+    display: table-column;
+  }
+
+  .div-colgroup {
+    display: table-column-group;
+  }
+
+  .div-td,
+  .div-th {
+    display: table-cell;
+    float: none;
+    vertical-align: top;
+  }
+
+  .div-tcell-h-centered {
+    text-align: center;
+  }
+  .div-tcell-v-centered {
+    vertical-align: middle;
+  }
+
+  .div-td.div-td-wrapper,
+  .div-th.div-td-wrapper {
+    padding: 0;
+  }
+
+  .div-tcaption {
+    display: table-caption;
+  }
+
+  .div-tcol- {
+    &1 {
+      width: 8.33333%;
+    }
+    &2 {
+      width: 16.66667%;
+    }
+    &3 {
+      width: 25%;
+    }
+    &4 {
+      width: 33.33333%;
+    }
+    &5 {
+      width: 41.66667%;
+    }
+    &6 {
+      width: 50%;
+    }
+    &7 {
+      width: 58.33333%;
+    }
+    &8 {
+      width: 66.66667%;
+    }
+    &9 {
+      width: 75%;
+    }
+    &10 {
+      width: 83.33333%;
+    }
+    &11 {
+      width: 91.66667%;
+    }
+    &12 {
+      width: 100%;
+    }
+  }
+}
+
+@media all and (min-width: ($div-table-mobile-breakpoint + 1)) {
+  .div-table-d-hide {
+    display: none;
+  }
+}
+
+@media all and (max-width: $div-table-mobile-breakpoint) {
+  .div-table {
+    display: block;
+    width: 100%;
+
+    .div-tr {
+      display: block;
+      &:after {
+        display: block;
+        clear: both;
+        content: "";
+      }
+    }
+
+    .div-thead {
+      display: block;
+    }
+
+    .div-tbody {
+      display: block;
+    }
+
+    .div-tfoot {
+      display: block;
+    }
+
+    .div-col {
+      display: block;
+    }
+
+    .div-colgroup {
+      display: block;
+    }
+
+    .div-td,
+    .div-th {
+      display: block;
+      float: left;
+    }
+
+    .div-tcol-m- {
+      &1 {
+        width: 8.33333%;
+      }
+      &2 {
+        width: 16.66667%;
+      }
+      &3 {
+        width: 25%;
+      }
+      &4 {
+        width: 33.33333%;
+      }
+      &5 {
+        width: 41.66667%;
+      }
+      &6 {
+        width: 50%;
+      }
+      &7 {
+        width: 58.33333%;
+      }
+      &8 {
+        width: 66.66667%;
+      }
+      &9 {
+        width: 75%;
+      }
+      &10 {
+        width: 83.33333%;
+      }
+      &11 {
+        width: 91.66667%;
+      }
+      &12 {
+        width: 100%;
+      }
+    }
+
+    .div-table-m-hide {
+      display: none;
+    }
+  }
+}

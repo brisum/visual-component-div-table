@@ -1,0 +1,17 @@
+{
+  "name": "brisum/visual-component-div-table",
+  "description": "div table",
+  "keywords": [
+    "div",
+    "table"
+  ],
+  "homepage": "https://github.com/brisum/visual-component-div-table",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleksandr Manchenko",
+      "email": "omanchenko@brisum.com",
+      "homepage": "http://brisum.com"
+    }
+  ]
+}

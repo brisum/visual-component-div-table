@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="./../dist/div-table.css?v=1.0">
+
+    <style>
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        img {
+            max-width: 100px;
+            width: 100%;
+            height: auto;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>div-table - cart</h1>
+
+        <div class="div-table" data-require-init="div-table.widget">
+            <div class="div-thead">
+                <div class="div-tr">
+                    <div class="div-th div-tcol-2 div-tcol-m-3">
+                        Image
+                    </div>
+                    <div class="div-th div-tcol-4 div-tcol-m-8">
+                        Title
+                    </div>
+                    <div class="div-th div-tcol-2 div-tcol-m-12 div-tcell-h-centered div-table-m-hide">
+                        Qty
+                    </div>
+                    <div class="div-th div-tcol-2 div-tcol-m-12 div-tcell-h-centered div-table-m-hide">
+                        Price
+                    </div>
+                    <div class="div-th div-tcol-2 div-tcol-m-12 div-tcell-h-centered div-table-m-hide">
+                        Summary
+                    </div>
+                    <div class="div-th div-tcol-m-1 div-tcol-toggle">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-tbody">
+                <div class="div-tr">
+                    <div class="div-td div-tcol-2 div-tcol-m-3">
+                        <img src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E"
+                             alt=""
+                             style="background: purple;">
+                    </div>
+                    <div class="div-td div-tcol-4 div-tcol-m-8 div-tcell-v-centered">
+                        Product title #1
+
+                        <div class="product-info div-table-d-hide">
+                            <div class="value">
+                                <span class="value-label">Qty</span>
+                                <span class="value-value">1</span>
+                            </div>
+                            <div class="value">
+                                <span class="value-label">Price</span>
+                                <span class="value-value">100</span>
+                            </div>
+                            <div class="value">
+                                <span class="value-label">Summary</span>
+                                <span class="value-value">100</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-td div-tcol-2 div-table-m-hide div-tcell-h-centered div-tcell-v-centered">
+                        1
+                    </div>
+                    <div class="div-td div-tcol-2 div-table-m-hide div-tcell-h-centered div-tcell-v-centered">
+                        100
+                    </div>
+                    <div class="div-td div-tcol-2 div-table-m-hide div-tcell-h-centered div-tcell-v-centered">
+                        100
+                    </div>
+                    <div class="div-td div-tcol-d-hide div-tcol-m-1 div-tcol-toggle div-tcell-v-centered">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-tfoot">
+                <div class="div-tr">
+                    <div class="div-th div-tcol-2 div-tcol-m-3">
+                        Image
+                    </div>
+                    <div class="div-th div-tcol-4 div-tcol-m-8">
+                        Title
+                    </div>
+                    <div class="div-th div-tcol-2 div-table-m-hide">
+                        Qty
+                    </div>
+                    <div class="div-th div-tcol-2 div-table-m-hide">
+                        Price
+                    </div>
+                    <div class="div-th div-tcol-2 div-table-m-hide">
+                        Summary
+                    </div>
+                    <div class="div-th div-table-d-hide div-tcol-m-1 div-tcol-toggle">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../dist/div-table.js?v=1.0"></script>
+</body>
+</html>
+
