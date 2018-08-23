@@ -43,6 +43,18 @@
     padding: 10px;
   }
 
+  .div-td.div-tcell-wrapper,
+  .div-th.div-tcell-wrapper {
+    padding: 0;
+
+    .div-table .div-tr:first-child {
+      border-top: none;
+    }
+    .div-table .div-tr {
+      border-bottom: none;
+    }
+  }
+
   .tcol-toggle {
     display: block;
     text-align: right;
